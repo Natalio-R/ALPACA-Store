@@ -1,0 +1,29 @@
+{
+  "Categories": [
+    {
+      "id_categoria": "1",
+      "nombre": "Cachimbas",
+      "imagen": "cachimbas.png"
+    },
+    {
+      "id_categoria": "2",
+      "nombre": "Cazoletas",
+      "imagen": "cazoletas.png"
+    },
+    {
+      "id_categoria": "3",
+      "nombre": "Mangueras",
+      "imagen": "mangueras.png"
+    },
+    {
+      "id_categoria": "4",
+      "nombre": "Carbones",
+      "imagen": "carbones.png"
+    },
+    {
+      "id_categoria": "5",
+      "nombre": "Accesorios",
+      "imagen": "accesorios.png"
+    }
+  ]
+}
