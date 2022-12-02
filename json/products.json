@@ -2,63 +2,83 @@
   "Ofertas": [
     {
       "id_producto": "1",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "nombre": "CACHIMBA K-LADA RESIN WHITE",
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
-      "estrellas": "4",
-      "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
-    },
-    {
-      "id_producto": "2",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
-      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
+      "precio": "84'95",
+      "precio_ant": "94'95",
       "estrellas": "3",
       "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
-    },
-    {
-      "id_producto": "3",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
-      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
-      "estrellas": "4",
-      "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
-    },
-    {
-      "id_producto": "1",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
-      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
-      "estrellas": "4",
-      "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
+      "grupo": "K-LADA RESIN"
     },
     {
       "id_producto": "2",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "nombre": "CACHIMBA K-LADA FUSSION 2.0 BLACK",
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
-      "estrellas": "2",
+      "precio": "69'95",
+      "precio_ant": "89'95",
+      "estrellas": "4",
       "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
+      "grupo": "K-LADA FUSSION 2.0"
     },
     {
       "id_producto": "3",
-      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "nombre": "CACHIMBA K-LADA FUSSION 2.0 SILVER",
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
-      "precio": "129'95",
-      "precio_ant": "139'95",
-      "estrellas": "5",
+      "precio": "64'95",
+      "precio_ant": "84'95",
+      "estrellas": "4",
       "categoria": "Cachimbas",
-      "grupo": "DIANA-HOOKAH-MINI-2.0"
+      "grupo": "K-LADA FUSSION 2.0"
+    },
+    {
+      "id_producto": "4",
+      "nombre": "GESTOR HC FLAVOUR TOP",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "9'95",
+      "precio_ant": "12'95",
+      "estrellas": "5",
+      "categoria": "Accesorios",
+      "grupo": "GESTOR HC FLAVOUR"
+    },
+    {
+      "id_producto": "5",
+      "nombre": "HC REVO",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "14'95",
+      "precio_ant": "19'95",
+      "estrellas": "2",
+      "categoria": "Cazoletas",
+      "grupo": "HC"
+    },
+    {
+      "id_producto": "6",
+      "nombre": "CACHIMBA DMNT ALKIMIA NEON PINK",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "99'95",
+      "precio_ant": "129'95",
+      "estrellas": "2",
+      "categoria": "Cachimbas",
+      "grupo": "DMNT ALKIMIA NEON"
+    },
+    {
+      "id_producto": "7",
+      "nombre": "CACHIMBA DMNT KORVUS NEON YELLOW",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "149'95",
+      "precio_ant": "189'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DMNT KORVUS NEON"
+    },
+    {
+      "id_producto": "8",
+      "nombre": "CACHIMBA K-LADA FUSSION 2.0 BLUE",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "69'95",
+      "precio_ant": "89'95",
+      "estrellas": "2",
+      "categoria": "Cachimbas",
+      "grupo": "K-LADA FUSSION 2.0"
     }
   ],
   "Novedades": [
