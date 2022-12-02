@@ -24,6 +24,31 @@
       "id_categoria": "5",
       "nombre": "Accesorios",
       "imagen": "accesorios.png"
+    },
+    {
+      "id_categoria": "6",
+      "nombre": "Pods",
+      "imagen": "pods.png"
+    },
+    {
+      "id_categoria": "7",
+      "nombre": "Boquillas",
+      "imagen": "boquillas.png"
+    },
+    {
+      "id_categoria": "8",
+      "nombre": "Hornos",
+      "imagen": "hornos.png"
+    },
+    {
+      "id_categoria": "9",
+      "nombre": "limpieza",
+      "imagen": "limpieza.png"
+    },
+    {
+      "id_categoria": "10",
+      "nombre": "Bases",
+      "imagen": "bases.png"
     }
   ]
 }

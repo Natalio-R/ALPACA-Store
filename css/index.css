@@ -5,6 +5,7 @@
 :root {
   /* Colores */
   --primary: #e53131;
+  --primaryLight: #ffa5a5;
   --secondary: #9a9a9a;
   --background: #f6f8fb;
   --white: #fff;
@@ -43,12 +44,15 @@ ol {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 button,
 input {
   border: none;
   background-color: inherit;
   outline: none;
-  cursor: pointer;
 }
 
 @media (min-width: 576px) {
@@ -91,8 +95,12 @@ section {
 }
 
 .swiper-slide img {
+  display: block;
   width: 100%;
+  object-fit: cover;
+  user-select: none;
 }
+
 /* !Swipper */
 
 /* Titulos */

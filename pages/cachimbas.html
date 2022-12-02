@@ -13,22 +13,28 @@
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
         <div class="container">
             <div class="shorts-links">
                 <div class="short coin">
                     <div class="icon">
                         <i class="fa fa-coins"></i>
                     </div>
-                    <span>Euro (€)</span>
-                    <i class="fa fa-chevron-down"></i>
+                    <select name="coins">
+                        <option value="euro" selected>Euro(€)</option>
+                        <option value="dollar">Dollar($)</option>
+                    </select>
                 </div>
                 <div class="short language">
                     <div class="icon">
                         <i class="fa fa-language"></i>
                     </div>
-                    <span>Idioma</span>
-                    <i class="fa fa-chevron-down"></i>
+                    <select name="lang">
+                        <option value="spain" selected>Español</option>
+                        <option value="english">Inglés</option>
+                        <option value="french">Francés</option>
+                    </select>
                 </div>
                 <div class="separator"></div>
                 <div class="account">
@@ -38,10 +44,12 @@
             </div>
         </div>
     </header>
+    <!-- !Header -->
 
+    <!-- MenuBar -->
     <nav class="container">
-        <div class="logo">
-            <img src="../assets/Secundario.png" alt="Logo Alpaca" title="ALPACA">
+        <div class="logo" onclick="location.href='../index.html'">
+            <img src="../assets/Secundario.png" alt="Logo ALPACA" title="ALPACA">
         </div>
         <div class="search-bar">
             <input type="text" id="search">
@@ -51,15 +59,16 @@
         </div>
         <div class="actions">
             <div class="wishlist">
-                <div class="icon"><i class="far fa-heart"></i><span>5</span></div>
-                <span>Favoritos</span>
+                <div class="icon"><i class="fas fa-heart"></i><span>5</span></div>
+                <span class="ac-nam">Favoritos</span>
             </div>
             <div class="cart">
-                <div class="icon"><i class='bx bx-cart'></i><span>2</span></div>
-                <span>Mi cesta</span>
+                <div class="icon"><i class="fas fa-shopping-bag"></i><span>2</span></div>
+                <span class="ac-nam">Mi cesta</span>
             </div>
         </div>
     </nav>
+    <!-- MenuBar -->
 
     <!-- Categorías -->
     <section class="categories">
@@ -68,7 +77,7 @@
                 <h2 class="title">Categorías principales</h2>
             </div>
             <div class="lista-categorias">
-                <script>listarPacientes();</script>
+                <script>listarCategorias();</script>
             </div>
         </div>
     </section>
@@ -144,25 +153,7 @@
                     Hay x productos
                 </div>
                 <div class="list-products">
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <script>listarOfertas();</script>
+                    <script>listarCachimbas();</script>
                 </div>
             </div>
         </main>

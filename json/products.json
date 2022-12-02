@@ -1,12 +1,12 @@
 {
-  "Productos": [
+  "Ofertas": [
     {
       "id_producto": "1",
       "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
       "precio": "129'95",
       "precio_ant": "139'95",
-      "estrellas": "4.5",
+      "estrellas": "4",
       "categoria": "Cachimbas",
       "grupo": "DIANA-HOOKAH-MINI-2.0"
     },
@@ -16,7 +16,7 @@
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
       "precio": "129'95",
       "precio_ant": "139'95",
-      "estrellas": "3.5",
+      "estrellas": "3",
       "categoria": "Cachimbas",
       "grupo": "DIANA-HOOKAH-MINI-2.0"
     },
@@ -36,7 +36,7 @@
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
       "precio": "129'95",
       "precio_ant": "139'95",
-      "estrellas": "4.5",
+      "estrellas": "4",
       "categoria": "Cachimbas",
       "grupo": "DIANA-HOOKAH-MINI-2.0"
     },
@@ -46,7 +46,39 @@
       "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
       "precio": "129'95",
       "precio_ant": "139'95",
-      "estrellas": "3.5",
+      "estrellas": "2",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "3",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "5",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    }
+  ],
+  "Novedades": [
+    {
+      "id_producto": "1",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "2",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "3",
       "categoria": "Cachimbas",
       "grupo": "DIANA-HOOKAH-MINI-2.0"
     },
@@ -57,6 +89,98 @@
       "precio": "129'95",
       "precio_ant": "139'95",
       "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "1",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "2",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "2",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "3",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "5",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    }
+  ],
+  "Cachimbas": [
+    {
+      "id_producto": "1",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "2",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "3",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "3",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "1",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "4",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "2",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "2",
+      "categoria": "Cachimbas",
+      "grupo": "DIANA-HOOKAH-MINI-2.0"
+    },
+    {
+      "id_producto": "3",
+      "nombre": "CACHIMBA DIANA HOOKAH MINI 2.0",
+      "imagen": "DIANA-HOOKAH-MINI-2.0_01.jpg",
+      "precio": "129'95",
+      "precio_ant": "139'95",
+      "estrellas": "5",
       "categoria": "Cachimbas",
       "grupo": "DIANA-HOOKAH-MINI-2.0"
     }

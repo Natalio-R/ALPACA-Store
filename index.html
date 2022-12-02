@@ -2,34 +2,50 @@
 <html lang="es-ES">
 
 <head>
+    <!-- Metalinks -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpaca - Shisha Store & Shisha Tobacco</title>
+    <!-- !Metalinks -->
+    <!-- Local CSS -->
     <link rel="stylesheet" href="./css/index.css">
+    <!-- !Local CSS -->
+    <!-- Local JS -->
+    <script src="./js/main.js"></script>
+    <!-- !Local JS -->
+    <!-- Iconos (Fontawesome) -->
     <script src="https://kit.fontawesome.com/b7812e77e8.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="./js/main.js"></script>
+    <!-- !Iconos (Fontawesome) -->
+    <!-- Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- !Swiper -->
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
         <div class="container">
             <div class="shorts-links">
                 <div class="short coin">
                     <div class="icon">
                         <i class="fa fa-coins"></i>
                     </div>
-                    <span>Euro (€)</span>
-                    <i class="fa fa-chevron-down"></i>
+                    <select name="coins">
+                        <option value="euro" selected>Euro(€)</option>
+                        <option value="dollar">Dollar($)</option>
+                    </select>
                 </div>
                 <div class="short language">
                     <div class="icon">
                         <i class="fa fa-language"></i>
                     </div>
-                    <span>Idioma</span>
-                    <i class="fa fa-chevron-down"></i>
+                    <select name="lang">
+                        <option value="spain" selected>Español</option>
+                        <option value="english">Inglés</option>
+                        <option value="french">Francés</option>
+                    </select>
                 </div>
                 <div class="separator"></div>
                 <div class="account">
@@ -39,10 +55,12 @@
             </div>
         </div>
     </header>
+    <!-- !Header -->
 
+    <!-- MenuBar -->
     <nav class="container">
-        <div class="logo">
-            <img src="./assets/Secundario.png" alt="Logo Alpaca" title="ALPACA">
+        <div class="logo" onclick="location.href='./index.html'">
+            <img src="./assets/Secundario.png" alt="Logo ALPACA" title="ALPACA">
         </div>
         <div class="search-bar">
             <input type="text" id="search">
@@ -52,18 +70,19 @@
         </div>
         <div class="actions">
             <div class="wishlist">
-                <div class="icon"><i class="far fa-heart"></i><span>5</span></div>
-                <span>Favoritos</span>
+                <div class="icon"><i class="fas fa-heart"></i><span>5</span></div>
+                <span class="ac-nam">Favoritos</span>
             </div>
             <div class="cart">
-                <div class="icon"><i class='bx bx-cart'></i><span>2</span></div>
-                <span>Mi cesta</span>
+                <div class="icon"><i class="fas fa-shopping-bag"></i><span>2</span></div>
+                <span class="ac-nam">Mi cesta</span>
             </div>
         </div>
     </nav>
+    <!-- MenuBar -->
 
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <!-- Slider -->
+    <div class="swiper slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="./assets/slider1.jpg" alt="Imagen Slider">
@@ -81,7 +100,7 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-    <!-- !Swiper -->
+    <!-- !Slider -->
 
     <!-- Categorías -->
     <section class="categories">
@@ -90,7 +109,7 @@
                 <h2 class="title">Categorías principales</h2>
             </div>
             <div class="lista-categorias">
-                <script>listarPacientes();</script>
+                <script>listarCategoriasI();</script>
             </div>
         </div>
     </section>
@@ -160,21 +179,21 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".slider", {
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
             loop: true,
-            speed: 500,
+            speed: 600,
             autoplay: {
                 delay: 5000,
-                speed: 500,
+                speed: 600,
             },
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- !Scripts -->
 </body>
 
